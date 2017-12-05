@@ -55,19 +55,21 @@ body {
 
 .decoration {
     position: absolute;
+    left: -30px;
+    right: -30px;
     transform: rotate(-1.5deg);
-    width: 101%;
+    width: 120%;
     height: 80px;
     background-color: #b9c9e1;
     z-index: 3;
 }
 
 .decoration.top {
-    top: -20px;
+    top: -30px;
 }
 
 .decoration.bottom {
-    bottom: -20px;
+    bottom: -30px;
 }
 
 .portrait {
