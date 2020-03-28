@@ -70,7 +70,9 @@ body {
     transform: rotate(-1.5deg);
     width: 120%;
     height: 80px;
-    background-color: #b9c9e1;
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);
+    background: #0F2027;
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
     z-index: 3;
 }
 
