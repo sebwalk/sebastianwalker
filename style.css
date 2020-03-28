@@ -44,9 +44,27 @@ body {
     font-weight: 600;
 }
 
-.claim .link a {
+.claim .contact a {
     color: inherit;
     text-decoration: none;
+}
+
+.claim .contact a .mail {
+    display: none;
+}
+
+.claim .contact:hover a .mail {
+    display: inline;
+}
+
+.claim .contact a .link {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #c2c7c6;
+}
+
+.claim .contact:hover a .link {
+    display: none;
 }
 
 .work {
