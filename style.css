@@ -5,6 +5,8 @@ html, body {
 }
 
 body {
+    position: relative;
+    overflow: hidden;
     margin: 0;
     display: flex;
     align-items: center;
@@ -89,13 +91,22 @@ body {
 }
 
 @media only screen and (max-device-width : 480px) {
-    .lower {
+    .container {
         flex-direction: column;
-        flex-flow: column-reverse;
+        margin-right: 0;
     }
 
     .claim {
         margin-top: 10px;
+    }
+
+    .work {
+        margin-top: 20%;
+        text-align: center;
+    }
+
+    .references {
+        font-size: 0.6em;
     }
 
     .portrait {
