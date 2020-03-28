@@ -17,26 +17,24 @@ body {
 }
 
 .container {
-    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
     max-width: 100%;
     margin-right: 20%;
     padding: 20px;
     z-index: 2;
 }
 
-.upper {
+.name {
     font-size: 2.5em;
     line-height: 0.68;
     letter-spacing: 1px;
 }
 
-.lower {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
 .claim {
+    margin-top: 20px;
     color: #A6AAA9;
 }
 
@@ -49,8 +47,18 @@ body {
     text-decoration: none;
 }
 
+.work {
+    text-align: right;
+}
+
 .roles {
     color: #53585F;
+}
+
+.references {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #A6AAA9;
 }
 
 .decoration {
