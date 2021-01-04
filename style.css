@@ -61,10 +61,20 @@ body {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #c2c7c6;
+    animation: jump 0.8s infinite alternate;
 }
 
 .claim .contact:hover a .link {
     display: none;
+}
+
+@keyframes jump {
+    0% {
+        color: inherit;
+    }
+    100% {
+        color: #0c2c39;
+    }
 }
 
 .work {
@@ -102,12 +112,23 @@ body {
     bottom: -30px;
 }
 
-.portrait {
+.background {
     position: absolute;
     right: 0;
     height: 100%;
     z-index: 1;
     pointer-events: none;
+}
+
+.portrait {
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    width: 90%;
+    right: 5%;
+    bottom: 96px;
 }
 
 @media only screen and (max-device-width : 480px) {
@@ -131,6 +152,10 @@ body {
 
     .portrait {
         opacity: 0.5;
+    }
+
+    .logo {
+        display: none;
     }
 }
 
