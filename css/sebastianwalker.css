@@ -61,20 +61,10 @@ body {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #c2c7c6;
-    animation: jump 0.8s infinite alternate;
 }
 
 .claim .contact:hover a .link {
     display: none;
-}
-
-@keyframes jump {
-    0% {
-        color: inherit;
-    }
-    100% {
-        color: #0c2c39;
-    }
 }
 
 .work {
