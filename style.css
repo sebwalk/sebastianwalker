@@ -133,3 +133,15 @@ body {
         opacity: 0.5;
     }
 }
+
+.imprint {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 4;
+}
+
+.imprint a {
+    color: #6c8199;
+    font-size: 0.75em;
+}
