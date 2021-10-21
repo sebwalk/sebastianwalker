@@ -75,10 +75,26 @@ body {
     color: #53585F;
 }
 
-.references {
+.references, .social {
     margin-top: 10px;
     font-size: 0.8em;
     color: #A6AAA9;
+}
+
+.references a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #c2c7c6;
+}
+
+.social a {
+    text-decoration: none;
+    color: #535860;
+}
+
+.references a:hover, .social a:hover {
+    color: #2C5364;
 }
 
 .decoration {
