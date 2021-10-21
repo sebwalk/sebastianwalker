@@ -75,26 +75,37 @@ body {
     color: #53585F;
 }
 
-.references, .social {
+.bio, .social, .credentials {
     margin-top: 10px;
     font-size: 0.8em;
     color: #A6AAA9;
 }
 
-.references a {
+.bio a, .social a {
     color: inherit;
+    text-decoration: none;
+}
+
+.bio a:hover, .social a:hover {
+    color: #2C5364;
+}
+
+.bio a {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #c2c7c6;
 }
 
-.social a {
-    text-decoration: none;
-    color: #535860;
+.credentials {
+    opacity: 0;
+    height: 0;
+    display: none;
 }
 
-.references a:hover, .social a:hover {
-    color: #2C5364;
+.credentials.visible {
+    opacity: 1;
+    height: 100%;
+    display: block;
 }
 
 .decoration {
@@ -150,9 +161,6 @@ body {
     .work {
         margin-top: 20%;
         text-align: center;
-    }
-
-    .references {
         font-size: 0.6em;
     }
 

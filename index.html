@@ -6,7 +6,7 @@
     <meta name="author" content="Sebastian Walker">
     <meta name="publisher" content="Sebastian Walker">
     <meta name="copyright" content="Sebastian Walker">
-    <meta name="description" content="I am Sebastian Walker, an entrepreneur, developer, and student from Germany and this is my home on the internet.">
+    <meta name="description" content="Transforming complex, real-world requirements into rock-solid technical solutions, I am involved at every step of the way.">
     <meta name="keywords" content="sebastian, walker, entrepreneur, developer, student, freiburg, company, walkermedia, web, development, personal, website, homepage, database, app, mobile, technology">
     <meta name="page-type" content="Personal Homepage">
     <meta name="audience" content="All">
@@ -21,6 +21,7 @@
     <meta name="theme-color" content="#0F2027">
     <title>Sebastian Walker - entrepreneur, developer, student based in Berlin</title>
 
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/sebastianwalker.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
@@ -29,14 +30,14 @@
 <body>
     <div class="container" id="app">
         <div class="info">
-            <div class="name">
+            <h1 class="name">
                 sebastian<br>
                 walker
-            </div>
+            </h1>
             <div class="claim">
-                <div class="text">
+                <h2 class="text">
                     all about ideas
-                </div>
+                </h2>
                 <div class="contact">
                     <a href="mailto:sebastian@sebastianwalker.org">
                         <span class="link">
@@ -50,27 +51,43 @@
             </div>
         </div>
         <div class="work">
-            <div class="roles">
+            <strong class="roles">
                 entrepreneur
                 &middot;
                 developer
                 &middot;
                 student
-            </div>
-            <div class="references">
-                Based in Berlin, currently studying at the <a href="https://hpi.de">Hasso-Plattner-Institute</a> <br>
+            </strong>
+            <p class="bio">
+                Based in Berlin, currently studying at the <a href="https://hpi.de" title="Hasso Plattner Institut (HPI)">Hasso-Plattner-Institute</a> <br>
                 and working for various projects as a full-stack software developer.
-            </div>
-            <div class="references">
+            </p>
+            <p class="bio">
                 Transforming complex, real-world requirements into rock-solid <br>
                 technical solutions, I am involved at every step of the way.
-            </div>
-            <div class="social">
-                <a href="https://www.linkedin.com/in/sebastian-walker-800261108/">
-                    <i class="fab fa-linkedin"></i>
-                    <span>Linkedin</span>
+            </p>
+            <p class="credentials" id="credentials">
+                European Forest Institute &middot; Integrate+ &middot; Universitätsspital Basel <br>
+                Swiss Clinical Quality Management &middot; Gemeinde Merzhausen <br>
+                AbbVie Pharma &middot; Technische Universität München (TUM) <br>
+                Deutsches Zentrum für Kinder- und Jugendrheumatologie <br>
+                Martin-Luther-Universität Halle-Wittenberg (FSR Medizin)
+            </p>
+            <p class="social">
+                <a href="#" title="Credentials">
+                    <i class="fa fa-angle-double-down"></i>
+                    <span onclick="document.getElementById('credentials').classList.add('visible')">
+                        View credentials
+                    </span>
                 </a>
-            </div>
+                &nbsp;
+                <a href="https://www.linkedin.com/in/sebastian-walker-800261108/" title="Sebastian Walker on LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                    <span>
+                        LinkedIn
+                    </span>
+                </a>
+            </p>
         </div>
     </div>
     <div class="decoration top"></div>
@@ -80,7 +97,7 @@
         <img src="images/brand_logo.png" alt="Walker Data Solutions" class="logo">
     </div>
     <div class="imprint">
-        <a href="impressum.html">Impressum</a>
+        <a href="impressum.html" title="Impressum">Impressum</a>
     </div>
 </body>
 </html>
